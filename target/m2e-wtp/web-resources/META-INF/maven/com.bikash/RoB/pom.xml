@@ -9,6 +9,7 @@
   <url>http://maven.apache.org</url>
   <properties>
 		<spring.version>4.0.1.RELEASE</spring.version>
+		<tiles.version>3.0.5</tiles.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -17,6 +18,31 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.tiles</groupId>
+			<artifactId>tiles-extras</artifactId>
+			<version>${tiles.version}</version>
+		</dependency>
+<dependency>
+	<groupId>org.apache.tiles</groupId>
+	<artifactId>tiles-jsp</artifactId>
+	<version>${tiles.version}</version>
+</dependency>
+<dependency>
+	<groupId>org.apache.tiles</groupId>
+	<artifactId>tiles-servlet</artifactId>
+	<version>${tiles.version}</version>
+</dependency>	
+<dependency>
+	<groupId>org.apache.tiles</groupId>
+	<artifactId>tiles-template</artifactId>
+	<version>${tiles.version}</version>
+</dependency>	
+<dependency>
+	<groupId>org.apache.tiles</groupId>
+	<artifactId>tiles-el</artifactId>
+	<version>${tiles.version}</version>
+</dependency>
 		<!-- Spring dependencies -->
 		<dependency>
 			<groupId>org.springframework</groupId>
